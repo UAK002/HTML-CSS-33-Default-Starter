@@ -1,4 +1,4 @@
-/* Temp */
+/* temp */
 
 body {
   padding: 2rem 5rem;
@@ -18,22 +18,9 @@ html {
 } /*16px*/
 
 :root {
-  /* colors */
-  --primary-500: #645cff;
-  /* grey */
-  --black: #222;
-  --white: #fff;
-  --red-light: #f8d7da;
-  --red-dark: #842029;
-  --green-light: #d1e7dd;
-  --green-dark: #0f5132;
-
-  /* Fonts */
-  --headingFont: 'Spectral', serif;
   --bodyFont: 'Karla', sans-serif;
+  --headingFont: 'Spectral', serif;
   --smallText: 0.7em;
-
-  /* Rest of vars */
 }
 
 body {
@@ -46,7 +33,7 @@ body {
 
 p {
   margin-bottom: 1rem;
-  max-width: 40ems;
+  max-width: 40em;
 }
 
 h1,
