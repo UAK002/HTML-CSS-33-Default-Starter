@@ -19,8 +19,11 @@ html {
 
 :root {
   /* colors */
+
   --primary-500: #645cff;
+
   /* grey */
+
   --black: #222;
   --white: #fff;
   --red-light: #f8d7da;
