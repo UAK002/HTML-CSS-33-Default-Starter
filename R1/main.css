@@ -269,9 +269,9 @@ ul {
 .title {
   text-align: center;
 }
-.title h2 {
-  /* margin-bottom: 0.25rem; */
-}
+/* .title h2 {
+  margin-bottom: 0.25rem;
+} */
 .title-underline {
   width: 7rem;
   height: 0.25rem;

@@ -1,5 +1,5 @@
 body {
-  padding: 2rem 5rem;
+  padding: 2rem 2rem;
   /* background: red; */
 }
 
@@ -176,4 +176,75 @@ ul {
 }
 .btn-block {
   width: 100%;
+}
+/* Alerts */
+
+.alert {
+  padding: 0.375rem 0.75rem;
+  border: transparent;
+  border-radius: var(--borderRadius);
+  margin-bottom: 1rem;
+}
+.alert-danger {
+  background: var(--red-light);
+  color: var(--red-dark);
+}
+.alert-success {
+  background: var(--green-light);
+  color: var(---green-dark);
+}
+
+/* Form */
+
+.form {
+  width: 90vw;
+  max-width: var(--fixed-width);
+  padding: 2rem 2.5rem;
+  background: var(--white);
+  box-shadow: var(--shadow-2);
+  border-radius: var(--borderRadius);
+  margin: 3rem auto;
+}
+.form-row {
+  margin-bottom: 1rem;
+}
+.form-label {
+  display: block;
+  font-size: var(--small-text);
+  letter-spacing: var(--letterSpacing);
+  margin-bottom: 0.5rem;
+  text-transform: capitalize;
+}
+.form-input,
+.form-textarea {
+  width: 100%;
+  border: 1px solid var(--gray-200);
+  background: var(--backgroundColor);
+  border-radius: var(--borderRadius);
+  padding: 0.375rem 0.75rem;
+}
+/* 
+- T .form (B3M2WP) & w 90vw & max-width --fixed-width & bg --white & brad --borderRadius & box-shadow --shadow-2 & P 2rem 2.5rem
+- T body & change P 2rem 2 rem
+- T .form & M 3rem auto
+- T .form-label (DFMTL) & display block & FZ --small-text & MB 0.5rem & TT capitalize & LS –letterspacing
+- T .form-input, .form-textarea (B3WP) & W 100% & P 0.375rem 0.75rem & brad --borderRadius & bg --backgroundColor & border 1px solid --grey200
+- T .form-row & MB 1rem
+- T .form-textarea & H 7rem
+- T ::placeholder & FF inherit & color --grey-400
+- W 3 div for email - div.form-row > small.form-alert > { Please provide value}
+- T .form-alert (CLT) & color --red-dark & LS --letterSpacing & TT capitalize
+
+*/
+.form-textarea {
+  height: 7rem;
+}
+::placeholder {
+  font-family: inherit;
+  color: var(--gray-400);
+}
+.form-alert {
+  color: var(--red-dark);
+  letter-spacing: var(--letterSpacing);
+  text-transform: capitalize;
 }
